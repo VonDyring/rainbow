@@ -41,8 +41,8 @@ void loop()
 
   strip.show();
   onb.show();
-  delay(1000);
 
+  delay(1000);
   Serial.println("Bluish!");
   rgbc = strip.gamma32(strip.ColorHSV(30000, 250, 100));
   strip.fill(rgbc, 0,0);
